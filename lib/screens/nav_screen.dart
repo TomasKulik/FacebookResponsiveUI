@@ -41,8 +41,9 @@ class _NavScreenState extends State<NavScreen> {
         //  physics: NeverScrollableScrollPhysics(),
         //  children: _screens,
         //),
-        bottomNavigationBar: Padding(
+        bottomNavigationBar: Container(
           padding: const EdgeInsets.only(bottom: 8.0), // iOS
+          color: Colors.white,
           child: CustomTabBar(
             icons: _icons,
             selectedIndex: _selectedIndex,
